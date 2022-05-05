@@ -3,6 +3,7 @@ from flask import Blueprint, request
 
 store = Blueprint("main", __name__)
 
+
 stores = [
     {
         "name": "My Wonderful Store",
